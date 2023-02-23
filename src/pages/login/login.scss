@@ -1,0 +1,233 @@
+
+body{
+    overflow: hidden;
+}
+.login {
+    height: 100vh;
+    background-color: #EFE081;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    .card {
+        width: 50%;
+        display: flex;
+        border-radius: 10px;
+        background-color: white;
+        overflow: hidden;
+        box-shadow: 10px 10px 174px 0px rgba(255, 255, 255, 0.26);
+        z-index: 2;
+
+        .left {
+            flex: 1;
+            background: linear-gradient(#efe0816c, rgba(0, 0, 0, 0.549)),
+                url("https://media.istockphoto.com/id/501387734/es/foto/amigos-bailando.jpg?s=612x612&w=0&k=20&c=BVRvjlM-A8eZtimcgugS4BlE1XqVNKHePVnqy-anGAM=") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+            h1 {
+                font-size: 100px;
+                line-height: 100px;
+            }
+
+            p {}
+
+            span {
+                font-size: 14px;
+            }
+
+            button {
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: white;
+                color: #c2b565;
+                font-weight: bold;
+                cursor: pointer;
+
+                .login {
+                    height: 100vh;
+                    background-color: #EFE081;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .card {
+                        width: 50%;
+                        display: flex;
+                        border-radius: 10px;
+                        background-color: white;
+                        overflow: hidden;
+                        box-shadow: 10px 10px 174px 0px rgba(255, 255, 255, 0.26);
+
+                        .left {
+                            flex: 1;
+                            background: linear-gradient(#efe0816c, rgba(0, 0, 0, 0.549)),
+                                url("https://media.istockphoto.com/id/501387734/es/foto/amigos-bailando.jpg?s=612x612&w=0&k=20&c=BVRvjlM-A8eZtimcgugS4BlE1XqVNKHePVnqy-anGAM=") center;
+                            background-size: cover;
+                            padding: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 30px;
+                            color: white;
+
+                            h1 {
+                                font-size: 100px;
+                                line-height: 100px;
+                            }
+
+                            p {}
+
+                            span {
+                                font-size: 14px;
+                            }
+
+                            button {
+                                width: 50%;
+                                padding: 10px;
+                                border: none;
+                                background-color: white;
+                                color: #c2b565;
+                                font-weight: bold;
+                                cursor: pointer;
+                            }
+                        }
+
+                        .right {
+                            flex: 1;
+                            padding: 50px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            gap: 50px;
+
+                            h1 {
+                                color: #555;
+                            }
+
+                            form {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 30px;
+
+                                input {
+                                    border: none;
+                                    border-bottom: 1px solid lightgray;
+                                    padding: 20px;
+                                }
+
+                                button {
+                                    width: 50%;
+                                    padding: 10px;
+                                    border: none;
+                                    background-color: #EFE081;
+                                    color: white;
+                                    font-weight: bold;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+
+            h1 {
+                color: #555;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input {
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px;
+                }
+
+                button {
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: #EFE081;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .circle1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        right: 5%;
+        z-index:1;
+    }
+
+    .circle2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        right: 75%;
+        z-index:1;
+
+
+    }
+
+    .circle3 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        right: 45%;
+        top: 5%;
+        z-index:1;
+    }
+
+    .circle4 {
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        right: 20%;
+        bottom: 0%;
+        z-index:1;
+    }
+
+    .circle5 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        right: 84%;
+        bottom: -10%;
+        z-index:1;
+    }
+}
