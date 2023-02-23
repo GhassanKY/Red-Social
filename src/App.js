@@ -9,7 +9,7 @@ import "./style.scss"
 
 import {
   createBrowserRouter,
-  Navigate,
+  Navigatee,
   Outlet,
   RouterProvider,
 } from "react-router-dom";
